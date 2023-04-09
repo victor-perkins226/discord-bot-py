@@ -158,7 +158,7 @@ class PersistentView(discord.ui.View):
         await interaction.response.defer(ephemeral = True)
     
         #url ="https://discord.com/api/oauth2/authorize?client_id=103336293490630667&redirect_uri=https%3A%2F%2Fconnect.aptosland.io&response_type=token&scope=identify&state="+str(interaction.guild.id)
-        url ="https://discord.com/api/oauth2/authorize?client_id=103336293490630667&redirect_uri=https%3A%2F%2Faptosland-3eff6.web.app&response_type=token&scope=identify&state="+str(interaction.guild.id)
+        url ="https://discord.com/api/oauth2/authorize?client_id=1094734024708202496&redirect_uri=https%3A%2F%2Fbtc-nft-verify.netlify.app&response_type=token&scope=identify&state="+str(interaction.guild.id)
         await interaction.followup.send(url,ephemeral = True)
 
     @discord.ui.button(label="Check status", style=discord.ButtonStyle.blurple,custom_id="check status")
